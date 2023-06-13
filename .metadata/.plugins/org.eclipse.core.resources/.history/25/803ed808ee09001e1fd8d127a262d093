@@ -1,0 +1,8 @@
+package com.mehmed.order.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class OrderServiceImplement implements OrderService {
+
+}

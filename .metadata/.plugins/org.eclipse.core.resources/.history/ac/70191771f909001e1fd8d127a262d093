@@ -1,0 +1,23 @@
+package com.mehmed.inventory.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mehmed.inventory.repository.InventoryRepo;
+
+@Service
+public class InventoryServiceImplement implements InventoryService {
+
+	@Autowired
+	private InventoryRepo inventoryRepo;
+	
+	
+	
+	@Override
+	public Boolean isInStock(String skuCode) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+}

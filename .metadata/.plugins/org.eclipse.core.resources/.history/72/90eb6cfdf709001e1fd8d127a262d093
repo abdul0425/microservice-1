@@ -1,0 +1,10 @@
+package com.mehmed.inventory.constant;
+
+public interface AppConstant {
+
+	public static final String TABLE = "inventory_info";
+	public static final String API = "/api";
+	public static final String IS_IN_STOCK = "/inStock";
+	
+	
+}

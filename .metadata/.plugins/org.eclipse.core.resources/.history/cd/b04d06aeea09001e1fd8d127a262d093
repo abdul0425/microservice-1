@@ -1,0 +1,5 @@
+package com.mehmed.order.constant;
+
+public interface AppConstant {
+
+}

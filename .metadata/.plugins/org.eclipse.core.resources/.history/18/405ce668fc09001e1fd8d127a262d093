@@ -1,0 +1,7 @@
+package com.mehmed.inventory.service;
+
+public interface InventoryService {
+
+	Boolean isInStock(String skuCode);
+
+}

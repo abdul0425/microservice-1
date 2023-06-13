@@ -1,0 +1,11 @@
+package com.mehmed.inventory.service;
+
+import com.mehmed.inventory.model.InventoryModel;
+
+public interface InventoryService {
+
+	Boolean isInStock(String skuCode);
+
+	InventoryModel fillStock(InventoryModel inventoryModel);
+
+}

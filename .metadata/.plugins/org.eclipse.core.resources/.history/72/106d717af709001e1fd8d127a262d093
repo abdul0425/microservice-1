@@ -1,0 +1,6 @@
+package com.mehmed.inventory.constant;
+
+public interface AppConstant {
+
+	public static final String TABLE = "inventory_info";
+}

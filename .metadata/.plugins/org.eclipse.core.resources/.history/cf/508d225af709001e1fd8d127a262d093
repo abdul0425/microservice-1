@@ -1,0 +1,5 @@
+package com.mehmed.inventory.constant;
+
+public interface AppConstant {
+
+}

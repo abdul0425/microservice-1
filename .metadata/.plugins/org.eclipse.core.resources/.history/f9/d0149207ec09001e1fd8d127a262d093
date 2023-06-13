@@ -1,0 +1,7 @@
+package com.mehmed.order.dto;
+
+import java.io.Serializable;
+
+public class OrderLineItemsDto implements Serializable {
+
+}

@@ -1,0 +1,7 @@
+package com.mehmed.arsalan.constant;
+
+
+public interface AppConstant {
+
+	public static final String TABLE = "prod_info";
+}

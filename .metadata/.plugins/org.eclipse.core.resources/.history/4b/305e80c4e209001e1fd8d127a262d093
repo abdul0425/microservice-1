@@ -1,0 +1,10 @@
+package com.mehmed.arsalan.service;
+
+import com.mehmed.arsalan.dto.ProductDto;
+import com.mehmed.arsalan.model.ProductModel;
+
+public interface ProductService {
+
+	ProductModel createProduct(ProductDto dto);
+
+}

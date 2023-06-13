@@ -1,0 +1,13 @@
+package com.mehmed.inventory.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.mehmed.inventory.model.InventoryModel;
+
+public interface InventoryRepo extends JpaRepository<InventoryModel, Integer> {
+
+	Optional findBySkuCode(String skuCode);
+
+}

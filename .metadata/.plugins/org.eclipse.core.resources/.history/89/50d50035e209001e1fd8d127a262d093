@@ -1,0 +1,5 @@
+package com.mehmed.arsalan.service;
+
+public interface ProductService {
+
+}

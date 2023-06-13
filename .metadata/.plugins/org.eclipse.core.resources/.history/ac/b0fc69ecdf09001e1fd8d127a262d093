@@ -1,0 +1,5 @@
+package com.mehmed.arsalan.constant;
+
+public interface AppConstant {
+
+}

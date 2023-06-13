@@ -1,0 +1,33 @@
+package com.mehmed.order.service;
+
+import java.util.UUID;
+
+import org.springframework.stereotype.Service;
+
+import com.mehmed.order.dto.OrderDto;
+import com.mehmed.order.model.OrderModel;
+
+@Service
+public class OrderServiceImplement implements OrderService {
+
+	@Override
+	public OrderModel placeOrder(OrderDto orderDto) {
+		// TODO Auto-generated method stub
+		OrderModel model = new OrderModel();
+		model.setOrderNumber(UUID.randomUUID().toString());
+		model.setOrderLineItems(orderDto.getOrderLineItemsDto());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.mehmed.inventory.controller;
+
+public class InventoryController {
+
+}

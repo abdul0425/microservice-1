@@ -1,0 +1,5 @@
+package com.mehmed.order.service;
+
+public class OrderServiceImplement implements OrderService {
+
+}

@@ -1,0 +1,5 @@
+package com.mehmed.inventory.service;
+
+public interface InventoryService {
+
+}
